@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C12DC81757294800809B7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C12DC71757294800809B7B /* Cocoa.framework */; };
+		22C12DD21757294800809B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22C12DD01757294800809B7B /* InfoPlist.strings */; };
+		22C12DD41757294800809B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C12DD31757294800809B7B /* main.m */; };
+		22C12DD81757294800809B7B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22C12DD61757294800809B7B /* Credits.rtf */; };
+		22C12DDB1757294800809B7B /* GraphDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C12DDA1757294800809B7B /* GraphDocument.m */; };
+		22C12DDE1757294800809B7B /* GraphDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C12DDC1757294800809B7B /* GraphDocument.xib */; };
+		22C12DE11757294800809B7B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C12DDF1757294800809B7B /* MainMenu.xib */; };
+		22C12DE81757295C00809B7B /* GraphPaper.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22C12DE71757295C00809B7B /* GraphPaper.icns */; };
+		22C12DEA1757297600809B7B /* Graph_App_Icon.gif in Resources */ = {isa = PBXBuildFile; fileRef = 22C12DE91757297600809B7B /* Graph_App_Icon.gif */; };
+		22C12DEC17572B3500809B7B /* Evaluator in Resources */ = {isa = PBXBuildFile; fileRef = 22C12DEB17572B3500809B7B /* Evaluator */; };
+		22C12DF317572D8800809B7B /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C12DF217572D8800809B7B /* GraphView.m */; };
+		22C12DF6175736E600809B7B /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C12DF5175736E600809B7B /* Label.m */; };
+		22C12DF91757399800809B7B /* Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C12DF81757399800809B7B /* Segment.m */; };
+		22C12DFD17573C5900809B7B /* PaperController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C12DFC17573C5900809B7B /* PaperController.m */; };
+		22C12E0117577ABE00809B7B /* GraphApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C12E0017577ABE00809B7B /* GraphApplication.m */; };
+		22C12E0317577DE200809B7B /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22C12E0217577DE200809B7B /* Preferences.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22C12DC41757294800809B7B /* GraphPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C12DC71757294800809B7B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		22C12DCA1757294800809B7B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		22C12DCB1757294800809B7B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		22C12DCC1757294800809B7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22C12DCF1757294800809B7B /* GraphPaper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphPaper-Info.plist"; sourceTree = "<group>"; };
+		22C12DD11757294800809B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22C12DD31757294800809B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22C12DD51757294800809B7B /* GraphPaper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GraphPaper-Prefix.pch"; sourceTree = "<group>"; };
+		22C12DD71757294800809B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		22C12DD91757294800809B7B /* GraphDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphDocument.h; sourceTree = "<group>"; };
+		22C12DDA1757294800809B7B /* GraphDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphDocument.m; sourceTree = "<group>"; };
+		22C12DDD1757294800809B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GraphDocument.xib; sourceTree = "<group>"; };
+		22C12DE01757294800809B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22C12DE71757295C00809B7B /* GraphPaper.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = GraphPaper.icns; sourceTree = SOURCE_ROOT; };
+		22C12DE91757297600809B7B /* Graph_App_Icon.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Graph_App_Icon.gif; path = ../Graph_App_Icon.gif; sourceTree = "<group>"; };
+		22C12DEB17572B3500809B7B /* Evaluator */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = Evaluator; sourceTree = "<group>"; };
+		22C12DF117572D8800809B7B /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		22C12DF217572D8800809B7B /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		22C12DF4175736E600809B7B /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		22C12DF5175736E600809B7B /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
+		22C12DF71757399800809B7B /* Segment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segment.h; sourceTree = "<group>"; };
+		22C12DF81757399800809B7B /* Segment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Segment.m; sourceTree = "<group>"; };
+		22C12DFB17573C5900809B7B /* PaperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperController.h; sourceTree = "<group>"; };
+		22C12DFC17573C5900809B7B /* PaperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperController.m; sourceTree = "<group>"; };
+		22C12DFF17577ABE00809B7B /* GraphApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphApplication.h; sourceTree = "<group>"; };
+		22C12E0017577ABE00809B7B /* GraphApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphApplication.m; sourceTree = "<group>"; };
+		22C12E0217577DE200809B7B /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22C12DC11757294800809B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C12DC81757294800809B7B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22C12DBB1757294800809B7B = {
+			isa = PBXGroup;
+			children = (
+				22C12DCD1757294800809B7B /* GraphPaper */,
+				22C12DC61757294800809B7B /* Frameworks */,
+				22C12DC51757294800809B7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22C12DC51757294800809B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22C12DC41757294800809B7B /* GraphPaper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22C12DC61757294800809B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22C12DC71757294800809B7B /* Cocoa.framework */,
+				22C12DC91757294800809B7B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22C12DC91757294800809B7B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22C12DCA1757294800809B7B /* AppKit.framework */,
+				22C12DCB1757294800809B7B /* CoreData.framework */,
+				22C12DCC1757294800809B7B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		22C12DCD1757294800809B7B /* GraphPaper */ = {
+			isa = PBXGroup;
+			children = (
+				22C12DFA17573C3A00809B7B /* Utils */,
+				22C12DFF17577ABE00809B7B /* GraphApplication.h */,
+				22C12E0017577ABE00809B7B /* GraphApplication.m */,
+				22C12DD91757294800809B7B /* GraphDocument.h */,
+				22C12DDA1757294800809B7B /* GraphDocument.m */,
+				22C12DFB17573C5900809B7B /* PaperController.h */,
+				22C12DFC17573C5900809B7B /* PaperController.m */,
+				22C12DF117572D8800809B7B /* GraphView.h */,
+				22C12DF217572D8800809B7B /* GraphView.m */,
+				22C12DDC1757294800809B7B /* GraphDocument.xib */,
+				22C12E0217577DE200809B7B /* Preferences.xib */,
+				22C12DDF1757294800809B7B /* MainMenu.xib */,
+				22C12DCE1757294800809B7B /* Supporting Files */,
+			);
+			path = GraphPaper;
+			sourceTree = "<group>";
+		};
+		22C12DCE1757294800809B7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22C12DEB17572B3500809B7B /* Evaluator */,
+				22C12DE91757297600809B7B /* Graph_App_Icon.gif */,
+				22C12DE71757295C00809B7B /* GraphPaper.icns */,
+				22C12DCF1757294800809B7B /* GraphPaper-Info.plist */,
+				22C12DD01757294800809B7B /* InfoPlist.strings */,
+				22C12DD31757294800809B7B /* main.m */,
+				22C12DD51757294800809B7B /* GraphPaper-Prefix.pch */,
+				22C12DD61757294800809B7B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22C12DFA17573C3A00809B7B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				22C12DF4175736E600809B7B /* Label.h */,
+				22C12DF5175736E600809B7B /* Label.m */,
+				22C12DF71757399800809B7B /* Segment.h */,
+				22C12DF81757399800809B7B /* Segment.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22C12DC31757294800809B7B /* GraphPaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22C12DE41757294800809B7B /* Build configuration list for PBXNativeTarget "GraphPaper" */;
+			buildPhases = (
+				22C12DC01757294800809B7B /* Sources */,
+				22C12DC11757294800809B7B /* Frameworks */,
+				22C12DC21757294800809B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphPaper;
+			productName = GraphPaper;
+			productReference = 22C12DC41757294800809B7B /* GraphPaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22C12DBC1757294800809B7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = KAjohansen;
+			};
+			buildConfigurationList = 22C12DBF1757294800809B7B /* Build configuration list for PBXProject "GraphPaper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22C12DBB1757294800809B7B;
+			productRefGroup = 22C12DC51757294800809B7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C12DC31757294800809B7B /* GraphPaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C12DC21757294800809B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C12DD21757294800809B7B /* InfoPlist.strings in Resources */,
+				22C12DD81757294800809B7B /* Credits.rtf in Resources */,
+				22C12DDE1757294800809B7B /* GraphDocument.xib in Resources */,
+				22C12DE11757294800809B7B /* MainMenu.xib in Resources */,
+				22C12DE81757295C00809B7B /* GraphPaper.icns in Resources */,
+				22C12DEA1757297600809B7B /* Graph_App_Icon.gif in Resources */,
+				22C12DEC17572B3500809B7B /* Evaluator in Resources */,
+				22C12E0317577DE200809B7B /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22C12DC01757294800809B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C12DD41757294800809B7B /* main.m in Sources */,
+				22C12DDB1757294800809B7B /* GraphDocument.m in Sources */,
+				22C12DF317572D8800809B7B /* GraphView.m in Sources */,
+				22C12DF6175736E600809B7B /* Label.m in Sources */,
+				22C12DF91757399800809B7B /* Segment.m in Sources */,
+				22C12DFD17573C5900809B7B /* PaperController.m in Sources */,
+				22C12E0117577ABE00809B7B /* GraphApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22C12DD01757294800809B7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C12DD11757294800809B7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22C12DD61757294800809B7B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C12DD71757294800809B7B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		22C12DDC1757294800809B7B /* GraphDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C12DDD1757294800809B7B /* en */,
+			);
+			name = GraphDocument.xib;
+			sourceTree = "<group>";
+		};
+		22C12DDF1757294800809B7B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C12DE01757294800809B7B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22C12DE21757294800809B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		22C12DE31757294800809B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22C12DE51757294800809B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraphPaper/GraphPaper-Prefix.pch";
+				INFOPLIST_FILE = "GraphPaper/GraphPaper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22C12DE61757294800809B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraphPaper/GraphPaper-Prefix.pch";
+				INFOPLIST_FILE = "GraphPaper/GraphPaper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22C12DBF1757294800809B7B /* Build configuration list for PBXProject "GraphPaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C12DE21757294800809B7B /* Debug */,
+				22C12DE31757294800809B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22C12DE41757294800809B7B /* Build configuration list for PBXNativeTarget "GraphPaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22C12DE51757294800809B7B /* Debug */,
+				22C12DE61757294800809B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22C12DBC1757294800809B7B /* Project object */;
+}
